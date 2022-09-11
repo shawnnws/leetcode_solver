@@ -4,7 +4,7 @@ import os
 
 from openai.openai_object import OpenAIObject
 
-openai_key: str = os.getenv("SHAWN_OPENAI_KEY", "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")
+openai_key: str = os.getenv("SHAWN_OPENAI_KEY", "")
 openai.api_key = openai_key
 
 
